@@ -4,6 +4,6 @@ def reverse_each_word(string)
   words.each do |word|
     word.reverse << new_array
 end
-new_array
+new_array.join
 end
 
